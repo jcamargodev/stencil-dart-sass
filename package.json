@@ -22,19 +22,19 @@
   "dependencies": {},
   "peerDependencies": {
     "@stencil/core": "^1.0.2",
-    "node-sass": "4.13.0"
+    "sass": "1.29.0"
   },
   "devDependencies": {
     "@stencil/core": "1.0.2",
     "@types/jest": "24.0.18",
     "@types/node": "12.7.12",
-    "@types/node-sass": "^4.11.0",
+    "@types/sass": "^1.16.0",
     "jest": "24.9.0",
-    "node-sass": "4.13.0",
     "np": "5.1.1",
     "rimraf": "^3.0.0",
     "rollup": "^1.26.0",
     "rollup-plugin-node-resolve": "^5.2.0",
+    "sass": "^1.29.0",
     "terser": "^4.3.8",
     "ts-jest": "^24.1.0",
     "tslint": "5.20.0",
@@ -43,15 +43,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nekator/stencil-node-sass.git"
+    "url": "git+https://github.com/jcamargodev/stencil-dart-sass.git"
   },
-  "author": "Heiko Does",
-  "homepage": "https://github.com/nekator",
-  "description": "The Stencil Sass Plugin based on node-sass",
+  "author": "Jean Camargo",
+  "homepage": "https://github.com/jcamargodev",
+  "description": "The Stencil Sass Plugin based on sass",
   "keywords": [
     "stencil",
-    "sass",
-    "node-sass"
+    "sass"
   ],
   "jest": {
     "preset": "ts-jest",
